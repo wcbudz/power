@@ -1,0 +1,28 @@
+=ifs(B3 = "AoV",B11 / ifs(B8 = "TTB", vlookup(B9,'Site Traffic'!F2:J5,4,FALSE),
+B8 = "TS", vlookup(B9,'Site Traffic'!F6:J9,4,FALSE),
+B8 = "Timex", vlookup(B9,'Site Traffic'!F10:J13,4,FALSE),
+B8 = "SCG", vlookup(B9,'Site Traffic'!F14:J17,4,FALSE),
+B8 = "EFD", vlookup(B9,'Site Traffic'!F18:J21,4,FALSE),
+B8 = "UAV", vlookup(B9,'Site Traffic'!F22:J25,4,FALSE),
+B8 = "BS", vlookup(B9, 'Site Traffic'!F26:J29,4,FALSE),
+B8 = "LEDGE", vslookup(B9, 'Site Traffic'!F30:J33,4,FALSE)),
+B3 = "CR",B11 / 
+
+ifs(B8 = "TTB", vlookup(B9,'Site Traffic'!F2:J5,5,FALSE),
+B8 = "TS", vlookup(B9,'Site Traffic'!F6:J9,5,FALSE),
+B8 = "Timex", vlookup(B9,'Site Traffic'!F10:J13,5,FALSE),
+B8 = "SCG", vlookup(B9,'Site Traffic'!F14:J17,5,FALSE),
+B8 = "EFD", vlookup(B9,'Site Traffic'!F18:J21,5,FALSE),
+B8 = "UAV", vlookup(B9,'Site Traffic'!F22:J25,5,FALSE),
+B8 = "BS", vlookup(B9, 'Site Traffic'!F26:J29,5,FALSE),
+B8 = "LEDGE", vslookup(B9, 'Site Traffic'!F30:J33,4,FALSE)),
+B3 = "RPU",B11 / 
+
+ifs(B8 = "TTB", vlookup(B9,'Site Traffic'!F2:J5,5,FALSE),
+B8 = "TS", vlookup(B9,'Site Traffic'!F6:J9,5,FALSE),
+B8 = "Timex", vlookup(B9,'Site Traffic'!F10:J13,5,FALSE),
+B8 = "SCG", vlookup(B9,'Site Traffic'!F14:J17,5,FALSE),
+B8 = "EFD", vlookup(B9,'Site Traffic'!F18:J21,5,FALSE),
+B8 = "UAV", vlookup(B9,'Site Traffic'!F22:J25,5,FALSE),
+B8 = "BS", vlookup(B9, 'Site Traffic'!F26:J29,5,FALSE),
+B8 = "LEDGE", vslookup(B9, 'Site Traffic'!F30:J33,4,FALSE)))
